@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:  [Outfit](https://fonts.google.com/specimen/Outfit);
+}
+body{
+    margin: 0 auto;
+}
+p{
+    color: hsl(215, 51%, 70%);
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: hsl(217, 54%, 11%);
+    padding: 20px;
+    margin: 0 auto;
+}
+.card{
+    background: hsl(216, 50%, 16%);
+    padding: 25px;
+    border-radius: 10px;
+    max-width: 370px;
+}
+.card .image{
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: red;
+    width: auto;
+}
+.image img{
+    overflow: hidden;
+    max-width: auto;
+    border-radius: 10px;
+    position: relative;
+}
+.text{
+    border-bottom: 1px solid hsl(215, 32%, 27%);
+    padding: 20px 0;
+}
+.text h2{
+    margin-top: 20px;
+    color: hsl(0, 0%, 100%);
+    font-weight: 600;
+}
+.text h2:hover{
+    color: hsl(178, 100%, 50%);
+    cursor: pointer;
+}
+.text p{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.icons{
+    display: flex;
+    justify-content: space-between;
+}
+.left{
+    display: flex;
+}
+.left span{
+    margin-left: 10px;
+    color: hsl(178, 100%, 50%);
+}
+.right{
+    display: flex;
+}
+.right span{
+    color: hsl(215, 51%, 70%);
+    margin-left: 10px;
+}
+.foot{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+.foot img{
+    max-width: 60px;
+    border: 1px solid white;
+    border-radius: 50px;
+}
+.foot p{
+    margin-left: 10px;
+}
+.foot span{
+    color: hsl(0, 0%, 100%) ;
+}
+.foot span:hover{
+    color: hsl(178, 100%, 50%);
+    cursor: pointer;
+}
+@media (max-width: 400px){
+    .card{
+        width: 338px;
+        height: fit-content;
+    }
+    .text h2:hover{
+        color: hsl(0, 0%, 100%);
+        cursor: auto;
+    }
+    .foot span:hover{
+        color: hsl(0, 0%, 100%);
+        cursor: auto;
+    }
+}
+.attribution {margin-top: 15px; font-size: 11px; color: #fff; text-align: center; }
+.attribution a { color: aqua; }
