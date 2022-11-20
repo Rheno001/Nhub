@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+p{
+    font-size:clamp(16px, 1vw, 18px);
+    font-weight: 400px;
+}
+h3{
+    font-weight: 700;
+    font-size:clamp(20px, 1vw, 25px) ;
+    color: hsl(179, 62%, 43%) ;
+}
+h4{
+    font-size: 18px;
+    color:  hsl(204, 43%, 93%);
+}
+.container{
+    background:   hsl(204, 43%, 93%);
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+}
+.container-sm{
+    display: flex;
+}
+.card{
+    margin-top: 90px;
+    margin-bottom: 90px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 0px 10px 50px rgb(180, 179, 179);
+}
+
+.top_text{
+    background: #fff;
+    padding: 30px 62px 30px 30px;
+}
+.first{
+    font-weight: 700px;
+    color: hsl(71, 73%, 54%);
+    margin-top: 20px;
+}
+.second{
+    margin-top: 7px;
+    color: hsl(218, 22%, 67%) ;
+    margin-bottom: 15px;
+}
+.bottom_text{
+    display: flex;
+    width: 100%;
+}
+.bottom_text  .fourth{
+    color:  hsl(204, 43%, 93%);
+    font-weight: 400;
+    margin-top: 20px;
+}
+.left{
+    background: hsl(179, 62%, 43%);
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+}
+.small{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+span{
+    font-size: 30px;
+    font-weight: 700;
+    color: #fff;
+}
+.small p{
+    color:hsl(204, 43%, 93%) ;
+    margin-left: 10px;
+    font-weight: 400;
+}
+.right{
+    background: hsl(179, 50%, 50%);
+    padding: 30px 80px 30px 30px;
+}
+button{
+    margin-top: 20px;
+    display: flex;
+    background:hsl(71, 73%, 54%) ;
+    border: none;
+    border-radius: 5px;
+    padding: clamp(10px, 2vw, 15px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-weight: 700;
+}
+.fifth{
+    margin-top: 27px;
+    color:  hsl(204, 43%, 93%);
+    font-weight: 400;
+}
+@media(max-width:500px){
+    .bottom_text{
+        display: flex;
+        flex-direction: column;
+    }
+
+}
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
